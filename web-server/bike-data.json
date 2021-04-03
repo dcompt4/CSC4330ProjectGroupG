@@ -1,0 +1,16 @@
+{
+    "bikes-per-rack": 6,
+    "bike-racks": 
+    [
+        { "available-bikes": 3 },
+        { "available-bikes": 3 },
+        { "available-bikes": 3 },
+        { "available-bikes": 3 },
+        { "available-bikes": 3 },
+        { "available-bikes": 3 },
+        { "available-bikes": 3 },
+        { "available-bikes": 3 },
+        { "available-bikes": 3 },
+        { "available-bikes": 3 }
+    ]
+}
