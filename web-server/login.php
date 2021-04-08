@@ -58,17 +58,17 @@
 
 
         <div class="container" align="left">
-            <form method="post">
+            <form action="./index.php" method="post">
                 <div class="form-group">
                     <div class="col-2"><label class="" for="email">Email Address</label></div>
                     <input class="form-control" id="email" type="email" name="email"
-                           placeholder="example@example.com" maxlength="100">
+                           placeholder="example@example.com" maxlength="100" required>
                 </div>
                 <br>
                 <div class="form-group">
                     <div class="col-2"><label class="" for="password">Password</label></div>
                     <input class="form-control" id="password" type="password" name="password"
-                           placeholder="Password" maxlength="100">
+                           placeholder="Password" maxlength="100" required>
                 </div>
                 <br>
 
