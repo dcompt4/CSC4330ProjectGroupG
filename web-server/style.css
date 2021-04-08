@@ -20,13 +20,38 @@ li a {
 
 /* Change the link color to #111 (black) on hover */
 li a:hover {
+    text-decoration: none;
     background-color: #111;
+    color: white;
 }
 
 .active {
-    background-color: #4CAF50;
+    background-color: Blue;
 }
 
 .btn-primary {
     background-color: blue ;
+}
+
+.btn-good {
+    background-color: lawngreen ;
+}
+
+.bad {
+    background-color: red ;
+}
+
+.dock {
+    border: solid 1px black;
+    padding: auto;
+    margin: 0 auto;
+}
+
+.row .btn {
+    margin: 0 auto;
+}
+
+nav {
+    margin: 0 auto;
+    padding: 0 !important;
 }

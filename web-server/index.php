@@ -29,20 +29,19 @@
 
         <nav>
 
-            <div class="container-fluid px-3 dispark-nav">
+            <div class="px-3">
 
                 <ul>
-                    <li><a href="dowling.html">Dowling</a></li>
+                    <li><a href="index.php">Dowling</a></li>
                     <li style="float:right"><a href="createAccount.php">Create Account</a></li>
                     <li style="float:right"><a href="login.php">Login</a></li>
-                    <li style="float:right"><a class="active" href="dowling.html">Bike Rentals and Returns</a></li>
+                    <li style="float:right"><a class="active" href="index.php">Bike Rentals and Returns</a></li>
                 </ul>
 
-                <div class=" navbar-collapse" id="navbarSupportedContent">
-
-                </div>
-
             </div>
+                </div>
+                </div>
+                </div>
 
         </nav>
 
@@ -55,42 +54,117 @@
             <!-- <section> begin ============================-->
             <section class="text-center pb-0" style="padding-bottom: 200px !important">
 
-                <div class="container-fluid">
+                <div class="pt-5 p-3 " align="center">
 
+                    <div class="row pb-5" align="center">
 
-                    <div class="overflow-hidden align-content-center" align="center">
-                        <div class="col-md-8" align="center">
-                            <h3 class="fs-sm-5 mb-2" data-zanim-xs='{"duration":"1.5","delay":0}'>Bike Rentals</h3>
+                    <div class="col-2 p-3 dock">
+                        <h1>Dock 1</h1>
+                        <p>Bikes Available:</p>
+                        <h2>3 / 6</h2>
+                        <div class="pt-3 row">
+                        <button class="btn btn-success checkOut" type="submit">Check Out</button>
+                        <button class="btn btn-success checkIn" type="submit">Check In</button>
                         </div>
                     </div>
-                    <br>
-                    <div class="overflow-hidden">
-                        <hr class="hr-short border-black" data-zanim-xs='{"duration":"1.5","delay":0.2}'/>
+
+                    <div class="col-2 p-3 dock">
+                        <h1>Dock 2</h1>
+                        <p>Bikes Available:</p>
+                        <h2>6 / 6</h2>
+                        <div class="pt-3 row">
+                        <button class="btn btn-success checkOut" type="submit">Check Out</button>
+                        <button class="btn btn-danger checkIn" type="submit" disabled>Check In</button>
+                        </div>
                     </div>
-                </div>
-                <!-- end of .container-->
 
-
-                <div class="container" align="left">
-                    <form>
-                        <div class="form-group">
-                            <div class="col-2"><label class="col-2" for="email">Email Address</label></div>
-                            <input class="form-control" id="email" type="email"
-                                   placeholder="example@example.com" maxlength="100">
+                    <div class="col-2 p-3 dock">
+                        <h1>Dock 3</h1>
+                        <p>Bikes Available:</p>
+                        <h2>0 / 6</h2>
+                        <div class="pt-3 row">
+                        <button class="btn btn-danger checkOut" type="submit" href="#">Check Out</button>
+                        <button class="btn btn-success checkIn" type="submit" href="#">Check In</button>
                         </div>
-                        <br>
-                        <div class="form-group">
-                            <div class="col-2"><label class="col-2" for="password">Password</label></div>
-                            <input class="form-control" id="password" type="password"
-                                   placeholder="Password" maxlength="100">
+                    </div>
+
+                    <div class="col-2 p-3 dock">
+                        <h1>Dock 4</h1>
+                        <p>Bikes Available:</p>
+                        <h2>3 / 6</h2>
+                        <div class=" pt-3 row">
+                        <button class="btn btn-success checkOut" type="submit" href="#">Check Out</button>
+                        <button class="btn btn-success checkIn" type="submit" href="#">Check In</button>
                         </div>
-                        <br>
+                    </div>
+
+                    <div class="col-2 p-3 dock">
+                        <h1>Dock 5</h1>
+                        <p>Bikes Available:</p>
+                        <h2>3 / 6</h2>
+                        <div class="pt-3 row">
+                        <button class="btn btn-success checkOut" type="submit" href="#">Check Out</button>
+                        <button class="btn btn-success checkIn" type="submit" href="#">Check In</button>
+                        </div>
+                    </div>
+
+                    </div>
+
+                    <div class="row pb-5" align="center">
+
+                    <div class="col-2 p-3 dock">
+                        <h1>Dock 6</h1>
+                        <p>Bikes Available:</p>
+                        <h2>3 / 6</h2>
+                        <div class="pt-3 row">
+                        <button class="btn btn-success checkOut" type="submit" href="#">Check Out</button>
+                        <button class="btn btn-success checkIn" type="submit" href="#">Check In</button>
+                        </div>
+                    </div>
+
+                    <div class="col-2 p-3 dock">
+                        <h1>Dock 7</h1>
+                        <p>Bikes Available:</p>
+                        <h2>3 / 6</h2>
+                        <div class="pt-3 row">
+                        <button class="btn btn-success checkOut" type="submit" href="#">Check Out</button>
+                        <button class="btn btn-success checkIn" type="submit" href="#">Check In</button>
+                        </div>
+                    </div>
+
+                    <div class="col-2 p-3 dock">
+                        <h1>Dock 8</h1>
+                        <p>Bikes Available:</p>
+                        <h2>3 / 6</h2>
+                        <div class="pt-3 row">
+                        <button class="btn btn-success checkOut" type="submit" href="#">Check Out</button>
+                        <button class="btn btn-success checkIn" type="submit" href="#">Check In</button>
+                        </div>
+                    </div>
+
+                    <div class="col-2 p-3 dock">
+                        <h1>Dock 9</h1>
+                        <p>Bikes Available:</p>
+                        <h2>3 / 6</h2>
+                        <div class=" pt-3 row">
+                        <button class="btn btn-success checkOut" type="submit" href="#">Check Out</button>
+                        <button class="btn btn-success checkIn" type="submit" href="#">Check In</button>
+                        </div>
+                    </div>
+
+                    <div class="col-2 p-3 dock">
+                        <h1>Dock 10</h1>
+                        <p>Bikes Available:</p>
+                        <h2>3 / 6</h2>
+                        <div class="pt-3 row">
+                        <button class="btn btn-success checkOut" type="submit" href="#">Check Out</button>
+                        <button class="btn btn-success checkIn" type="submit" href="#">Check In</button>
+                        </div>
+                    </div>
+
+                    </div>
 
 
-                    </form>
-                    <button class="btn login" type="submit" href="#">Login</button><br>
-                    <p>or</p><br>
-                    <a class="" type="submit" href="createAccount.html">Create Account</a>
 
                 </div>
 

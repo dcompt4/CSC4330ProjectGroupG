@@ -24,8 +24,8 @@
             <div class="container-fluid px-3 dispark-nav">
 
                 <ul>
-                    <li><a href="">Dowling</a></li>
-                    <li style="float:right"><a href="createAccount.php">Create Account</a></li>
+                    <li><a href="index.php">Dowling</a></li>
+                    <li style="float:right"><a class="active" href="createAccount.php">Create Account</a></li>
                     <li style="float:right"><a href="login.php">Login</a></li>
                 </ul>
 
@@ -47,17 +47,13 @@
     <!-- <section> begin ============================-->
     <section class="text-center pb-0" style="padding-bottom: 200px !important">
 
-        <div class="container-fluid">
+        <div class="container-fluid pt-4">
 
 
             <div class="overflow-hidden align-content-center" align="center">
                 <div class="col-md-8" align="center">
                     <h3 class="fs-sm-5 mb-2" data-zanim-xs='{"duration":"1.5","delay":0}'>Create Account</h3>
                 </div>
-            </div>
-            <br>
-            <div class="overflow-hidden">
-                <hr class="hr-short border-black" data-zanim-xs='{"duration":"1.5","delay":0.2}'/>
             </div>
         </div>
         <!-- end of .container-->
