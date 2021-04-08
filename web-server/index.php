@@ -26,9 +26,9 @@
             <div class="px-3">
 
                 <ul>
-                    <li><a href="index.php">Dowling</a></li>
-                    <li style="float:right"><a href="createAccount.php">Create Account</a></li>
-                    <li style="float:right"><a href="login.php">Login</a></li>
+                    <li><a class="inactive" href="index.php">Dowling</a></li>
+                    <li style="float:right"><a class="logout" href="login.php">Logout</a></li>
+                    <li style="float:right"><a class="inactive">Hello, User</a></li>
                     <li style="float:right"><a class="active" href="index.php">Bike Rentals and Returns</a></li>
                 </ul>
 
