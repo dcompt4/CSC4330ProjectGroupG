@@ -60,64 +60,64 @@
 
 
         <div class="container" align="left">
-            <form>
+            <form action="./login.php" method="post">
                 <div class="form-group">
                     <div class="col-2"><label for="email">Email Address</label></div>
                     <input class="form-control" id="email" type="email"
-                           placeholder="example@example.com" maxlength="100">
+                           placeholder="example@example.com" maxlength="100" required>
                 </div>
 
                 <div class="form-group">
                     <div class="col-2"><label for="password">Password</label></div>
                     <input class="form-control" id="password" type="password"
-                           placeholder="Password" maxlength="100">
+                           placeholder="Password" maxlength="100" required>
                 </div>
 
                 <div class="form-group">
                     <div class="col-2"><label for="name">Name</label></div>
-                    <input class="form-control" id="name" type="name" placeholder="Name" maxlength="100">
+                    <input class="form-control" id="name" type="name" placeholder="Name" maxlength="100" required>
                 </div>
 
                 <div class="form-group">
                     <div class="col-2"><label for="address">Address</label></div>
                     <input class="form-control" id="address" type="address"
-                           placeholder="12345 Street Name, City, State, ZIP" maxlength="200">
+                           placeholder="12345 Street Name, City, State, ZIP" maxlength="200" required>
                 </div>
 
                 <div class="form-group">
                     <div class="col-2"><label for="birthdate">Birthdate</label></div>
                     <input class="form-control" id="birthdate" type="date"
-                           placeholder="01/01/2000" maxlength="100">
+                           placeholder="01/01/2000" maxlength="100" required>
                 </div>
 
                 <div class="form-group">
                     <div class="col-2"><label for="phone">Phone Number</label></div>
                     <input class="form-control" id="phone" type="phone"
-                           placeholder="225-123-4567" maxlength="14">
+                           placeholder="225-123-4567" maxlength="14" required>
                 </div>
 
                 <div class="form-group">
                     <div class="col-2"><label for="credit">Credit Card Number</label></div>
                     <input class="form-control" id="credit" type="credit"
-                           placeholder="1234-1234-1234-1234" maxlength="19">
+                           placeholder="1234-1234-1234-1234" maxlength="19" required>
                 </div>
 
                 <div class="form-group">
                     <div class="col-2"><label for="date">Expiration Date</label></div>
                     <input class="form-control" id="date" type="date"
-                           placeholder="00/00" maxlength="5">
+                           placeholder="00/00" maxlength="5" required>
                 </div>
 
                 <div class="form-group">
                     <div class="col-2"><label for="pin">Security Code</label></div>
                     <input class="form-control" id="pin" type="pin"
-                           placeholder="123" maxlength="6">
+                           placeholder="123" maxlength="6" required>
                 </div>
 
 
-
+                <button class="btn btn-primary createAccount" type="submit">Create Account</button>
             </form>
-            <button class="btn btn-primary createAccount" type="submit" href="#">Create Account</button>
+            
         </div>
 
 

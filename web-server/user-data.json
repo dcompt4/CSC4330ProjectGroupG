@@ -3,9 +3,11 @@
     "email": "cconis1@lsu.edu",
     "password": "12345",
     "name": "Colby",
+    "birth-day": "05/22/2000",
+    "phone": "123-456-7890",
     "adress":  "234 Park St.",
     "card-number": "1234-6784-9289-8909",
-    "exp-date": "05/22",
+    "exp-date": "05/22/2022",
     "cvv": 432
   }
 ]

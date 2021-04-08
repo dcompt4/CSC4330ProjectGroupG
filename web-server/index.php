@@ -1,3 +1,9 @@
+<?php
+    if (!isset($_POST['email']) or !isset($_POST['password']))
+    {
+        header('Location: ./login.php');
+    }     
+?>
 <!doctype html>
 <html lang="en">
     <head>
@@ -33,6 +39,9 @@
                 </ul>
 
             </div>
+                </div>
+                </div>
+                </div>
 
         </nav>
 
