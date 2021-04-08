@@ -1,0 +1,11 @@
+[
+  {
+    "email": "cconis1@lsu.edu",
+    "password": "12345",
+    "name": "Colby",
+    "adress":  "234 Park St.",
+    "card-number": "1234-6784-9289-8909",
+    "exp-date": "05/22",
+    "cvv": 432
+  }
+]
