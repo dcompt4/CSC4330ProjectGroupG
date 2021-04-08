@@ -1,3 +1,9 @@
+<?php
+    if (!isset($_POST['email']) or !isset($_POST['password']))
+    {
+        header('Location: ./login.php');
+    }     
+?>
 <!doctype html>
 <html lang="en">
     <head>
@@ -27,11 +33,10 @@
 
                 <ul>
                     <li><a href="dowling.html">Dowling</a></li>
-                    <li style="float:right"><a href="createAccount.html">Create Account</a></li>
-                    <li style="float:right"><a href="login.html">Login</a></li>
+                    <li style="float:right"><a href="createAccount.php">Create Account</a></li>
+                    <li style="float:right"><a href="login.php">Login</a></li>
                     <li style="float:right"><a class="active" href="dowling.html">Bike Rentals and Returns</a></li>
                 </ul>
-
 
                 <div class=" navbar-collapse" id="navbarSupportedContent">
 
