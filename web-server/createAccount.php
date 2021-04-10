@@ -11,7 +11,7 @@
         <!-- Local css -->
         <link rel="stylesheet" href="style.css">
 
-        <title>Dowling Login</title>
+        <title>Dowling Create Account</title>
     </head>
 
 
@@ -21,19 +21,13 @@
 
  <nav>
 
-            <div class="container-fluid px-3 dispark-nav">
+            <div class="">
 
                 <ul>
                     <li><a href="index.php">Dowling</a></li>
                     <li style="float:right"><a class="active" href="createAccount.php">Create Account</a></li>
                     <li style="float:right"><a href="login.php">Login</a></li>
                 </ul>
-
-
-                <div class=" navbar-collapse" id="navbarSupportedContent">
-
-                </div>
-
             </div>
 
         </nav>
@@ -114,10 +108,16 @@
                            placeholder="123" maxlength="6" required>
                 </div>
 
+                <div class="form-group">
+                    <div class="checkbox custom-checkbox">
+                      <label><input type="checkbox" value="">  I agree to the <a href="tos.php" target="_blank">Terms of Service</a>.</label>
+                    </div>
+                </div>
 
-                <button class="btn btn-primary createAccount" type="submit">Create Account</button>
+
+                <button class="btn btn-success createAccount" type="submit">Create Account</button>
             </form>
-            
+
         </div>
 
 

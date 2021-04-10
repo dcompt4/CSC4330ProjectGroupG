@@ -11,7 +11,7 @@
         <!-- Local css -->
         <link rel="stylesheet" href="style.css">
 
-        <title>Dowling Login</title>
+        <title>Dowling TOS</title>
     </head>
 
 <body>
@@ -25,7 +25,7 @@
                 <ul>
                     <li><a href="index.php">Dowling</a></li>
                     <li style="float:right"><a href="createAccount.php">Create Account</a></li>
-                    <li style="float:right"><a class="active" href="login.php">Login</a></li>
+                    <li style="float:right"><a class="" href="login.php">Login</a></li>
                 </ul>
 
             </div>
@@ -45,7 +45,7 @@
 
             <div class="overflow-hidden align-content-center" align="center">
                 <div class="col-md-8" align="center">
-                    <h3 class="fs-sm-5 mb-2 pt-4">Login</h3>
+                    <h3 class="fs-sm-5 mb-2 pt-4">Term of Service</h3>
                 </div>
             </div>
         </div>
@@ -53,22 +53,12 @@
 
 
         <div class="container" align="left">
-            <form action="./index.php" method="post">
-                <div class="form-group">
-                    <div class="col-2"><label class="" for="email">Email Address</label></div>
-                    <input class="form-control" id="email" type="email" name="email"
-                           placeholder="example@example.com" maxlength="100" required>
-                </div>
-                <br>
-                <div class="form-group">
-                    <div class="col-2"><label class="" for="password">Password</label></div>
-                    <input class="form-control" id="password" type="password" name="password"
-                           placeholder="Password" maxlength="100" required>
-                </div>
-                <br>
-
-            <button class="btn btn-success login" type="submit">Login</button>
-            </form>
+            <p>The rental rates for a bike are $5 per half hour, $9 per hour for as long as the bike is rented.
+             If a portion of an hour is used at return, the customer will be charged the full hour. If the bike
+             is returned to a different dock, the customer will be charged an additional $25. If the bike is not
+              returned, the customer’s credit card will be charged $500. If a bike is damaged, the customer will be
+               charged $200 for the damage, depending on the damage. <br><br>The customer must indicate knowledge and agreement
+                of these requirements before he/she is approved to rent a bike. </p>
 
 
         </div>

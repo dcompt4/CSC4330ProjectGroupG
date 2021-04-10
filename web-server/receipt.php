@@ -11,7 +11,7 @@
         <!-- Local css -->
         <link rel="stylesheet" href="style.css">
 
-        <title>Dowling Login</title>
+        <title>Dowling Receipt</title>
     </head>
 
 <body>
@@ -23,9 +23,10 @@
             <div class="">
 
                 <ul>
-                    <li><a href="index.php">Dowling</a></li>
-                    <li style="float:right"><a href="createAccount.php">Create Account</a></li>
-                    <li style="float:right"><a class="active" href="login.php">Login</a></li>
+                    <li><a class="inactive" href="index.php">Dowling</a></li>
+                    <li style="float:right"><a class="logout" href="login.php">Logout</a></li>
+                    <li style="float:right"><a class="inactive">Hello, User</a></li>
+                    <li style="float:right"><a class="" href="index.php">Bike Rentals and Returns</a></li>
                 </ul>
 
             </div>
@@ -45,7 +46,7 @@
 
             <div class="overflow-hidden align-content-center" align="center">
                 <div class="col-md-8" align="center">
-                    <h3 class="fs-sm-5 mb-2 pt-4">Login</h3>
+                    <h3 class="fs-sm-5 mb-2 pt-4">Receipt</h3>
                 </div>
             </div>
         </div>
@@ -53,22 +54,45 @@
 
 
         <div class="container" align="left">
-            <form action="./index.php" method="post">
-                <div class="form-group">
-                    <div class="col-2"><label class="" for="email">Email Address</label></div>
-                    <input class="form-control" id="email" type="email" name="email"
-                           placeholder="example@example.com" maxlength="100" required>
-                </div>
-                <br>
-                <div class="form-group">
-                    <div class="col-2"><label class="" for="password">Password</label></div>
-                    <input class="form-control" id="password" type="password" name="password"
-                           placeholder="Password" maxlength="100" required>
-                </div>
-                <br>
 
-            <button class="btn btn-success login" type="submit">Login</button>
-            </form>
+        <hr>
+
+        <h4>Time Elapsed</h4>
+        <p>45 Minutes</p>
+        <div class="row">
+            <h4 class="col-6">Time Fee</h4>
+            <p class="col-6" align="right">$9</p>
+        </div>
+
+        <hr>
+
+        <h4>Start Dock</h4>
+        <p>Dock 2</p>
+        <h4>End Dock</h4>
+        <p>Dock 3</p>
+        <div class="row">
+            <h4 class="col-6">Dock Fee</h4>
+            <p class="col-6" align="right">$25</p>
+        </div>
+
+        <hr>
+
+        <h4>Damages</h4>
+        <p>No</p>
+        <div class="row">
+            <h4 class="col-6">Damage Fee</h4>
+            <p class="col-6" align="right">$0</p>
+        </div>
+
+        <hr>
+
+        <div class="row">
+            <h4 class="col-6">Total</h4>
+            <p class="col-6" align="right">$34</p>
+        </div>
+
+        <p>Payment will be made automatically from the payment method on your account.</p>
+        <a href="index.php"><button class="btn btn-success" type="button">Return</button></a>
 
 
         </div>
