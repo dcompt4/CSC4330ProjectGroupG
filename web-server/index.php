@@ -209,12 +209,18 @@
 					Is the bike damaged?
 				</div>
 				<div class="modal-footer">
+				    <div class="row" align="center" style="margin: 0 auto;">
+				    <div class="col-6">
 					<a href="receipt.php"><button type="button" class="btn btn-success">
 						No
 					</button></a>
+					</div>
+					<div class="col-6">
 					<a href="receipt.php"><button type="button" class="btn btn-success">
 						Yes
 					</button></a>
+					</div>
+					</div>
 				</div>
 			</div>
 		</div>
