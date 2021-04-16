@@ -2,15 +2,15 @@
     "bikes-per-rack": 6,
     "bike-racks": 
     [
-        { "available-bikes": 3 },
-        { "available-bikes": 3 },
-        { "available-bikes": 3 },
-        { "available-bikes": 3 },
-        { "available-bikes": 3 },
-        { "available-bikes": 3 },
-        { "available-bikes": 3 },
-        { "available-bikes": 3 },
-        { "available-bikes": 3 },
-        { "available-bikes": 3 }
+      { "available-bikes": 0 },
+      { "available-bikes": 1 },
+      { "available-bikes": 2 },
+      { "available-bikes": 3 },
+      { "available-bikes": 4 },
+      { "available-bikes": 5 },
+      { "available-bikes": 6 },
+      { "available-bikes": 5 },
+      { "available-bikes": 4 },
+      { "available-bikes": 3 }
     ]
 }

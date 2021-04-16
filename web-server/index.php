@@ -66,174 +66,168 @@
 			<section class="text-center pb-0" style="padding-bottom: 200px !important">
 
 				<div class="pt-5 p-3 " align="center">
+					
+					<span id="docks" style="display:inline;">
 
-					<div class="row pb-5" align="center">
+						<div class="row pb-5" align="center">
 
-					<!-- Dock 1 ============================-->
-					<div class="col-2 p-3 dock">
-						<h1>Dock 1</h1>
-						<p>Bikes Available:</p>
-						<h2>3 / 6</h2>
-						<div class="pt-3 row">
-						<button class="btn btn-success checkOut" type="submit">Check Out</button>
-						<button class="btn btn-success" type="button" data-toggle="modal" data-target="#damageModal">Check In</button>
+							<!--Dock 1 ============================-->
+							<div class="col-2 p-3 dock">
+								<h1>Dock 1</h1>
+								<p>Bikes Available:</p>
+								<h2>3 / 6</h2>
+								<div class="pt-3 row">
+									<button class="btn btn-dark checkOut" type="submit">Check Out</button>
+									<button class="btn btn-dark" type="button" data-toggle="modal" data-target="#damageModal">Check In</button>
+								</div>
+							</div>
+							<!-- /Dock 1 ============================-->
+
+							<!--Dock 2 ============================-->
+							<div class="col-2 p-3 dock">
+								<h1>Dock 2</h1>
+								<p>Bikes Available:</p>
+								<h2>6 / 6</h2>
+								<div class="pt-3 row">
+									<button class="btn btn-dark checkOut" type="submit">Check Out</button>
+									<button class="btn btn-dark checkIn" type="submit" disabled>Check In</button>
+								</div>
+							</div>
+							<!-- /Dock 2 ============================-->
+
+							<!--Dock 3 ============================-->
+							<div class="col-2 p-3 dock">
+								<h1>Dock 3</h1>
+								<p>Bikes Available:</p>
+								<h2>0 / 6</h2>
+								<div class="pt-3 row">
+									<button class="btn btn-dark checkOut" type="submit" href="#" disabled>Check Out</button>
+									<button class="btn btn-dark checkIn" type="submit" href="#">Check In</button>
+								</div>
+							</div>
+							<!-- /Dock 3 ============================-->
+
+							<!--Dock 4 ============================-->
+							<div class="col-2 p-3 dock">
+								<h1>Dock 4</h1>
+								<p>Bikes Available:</p>
+								<h2>3 / 6</h2>
+								<div class=" pt-3 row">
+									<button class="btn btn-dark checkOut" type="submit" href="#">Check Out</button>
+									<button class="btn btn-dark checkIn" type="submit" href="#">Check In</button>
+								</div>
+							</div>
+							<!-- /Dock 4 ============================-->
+
+							<!--Dock 5 ============================-->
+							<div class="col-2 p-3 dock">
+								<h1>Dock 5</h1>
+								<p>Bikes Available:</p>
+								<h2>3 / 6</h2>
+								<div class="pt-3 row">
+									<button class="btn btn-dark checkOut" type="submit" href="#">Check Out</button>
+									<button class="btn btn-dark checkIn" type="submit" href="#">Check In</button>
+								</div>
+							</div>
+							<!-- /Dock 5 ============================-->
+						</div >
+						<div class="row pb-5" align="center">
+
+							<!-- Dock 6 ============================-->
+							<div class="col-2 p-3 dock">
+								<h1>Dock 6</h1>
+								<p>Bikes Available:</p>
+								<h2>3 / 6</h2>
+								<div class="pt-3 row">
+									<button class="btn btn-dark checkOut" type="submit" href="#">Check Out</button>
+									<button class="btn btn-dark checkIn" type="submit" href="#">Check In</button>
+								</div>
+							</div>
+							<!-- /Dock 6 ============================-->
+
+							<!-- Dock 7 ============================-->
+							<div class="col-2 p-3 dock">
+								<h1>Dock 7</h1>
+								<p>Bikes Available:</p>
+								<h2>3 / 6</h2>
+								<div class="pt-3 row">
+									<button class="btn btn-dark checkOut" type="submit" href="#">Check Out</button>
+									<button class="btn btn-dark checkIn" type="submit" href="#">Check In</button>
+								</div>
+							</div>
+							<!-- /Dock 7 ============================-->
+
+							<!-- Dock 8 ============================-->
+							<div class="col-2 p-3 dock">
+								<h1>Dock 8</h1>
+								<p>Bikes Available:</p>
+								<h2>3 / 6</h2>
+								<div class="pt-3 row">
+									<button class="btn btn-dark checkOut" type="submit" href="#">Check Out</button>
+									<button class="btn btn-dark checkIn" type="submit" href="#">Check In</button>
+								</div>
+							</div>
+							<!-- /Dock 8 ============================-->
+
+							<!-- Dock 9 ============================-->
+							<div class="col-2 p-3 dock">
+								<h1>Dock 9</h1>
+								<p>Bikes Available:</p>
+								<h2>3 / 6</h2>
+								<div class=" pt-3 row">
+									<button class="btn btn-dark checkOut" type="submit" href="#">Check Out</button>
+									<button class="btn btn-dark checkIn" type="submit" href="#">Check In</button>
+								</div>
+							</div>
+							<!-- Dock 9 ============================-->
+
+							<!-- Dock 10 ============================-->
+							<div class="col-2 p-3 dock">
+								<h1>Dock 10</h1>
+								<p>Bikes Available:</p>
+								<h2>3 / 6</h2>
+								<div class="pt-3 row">
+									<button class="btn btn-dark checkOut" type="submit" href="#">Check Out</button>
+									<button class="btn btn-dark checkIn" type="submit" href="#">Check In</button>
+								</div>
+							</div>
+							<!-- /Dock 10 ============================-->	
 						</div>
-					</div>
-					<!-- /Dock 1 ============================-->
+					</span>
 
-					<!-- Dock 2 ============================-->
-					<div class="col-2 p-3 dock">
-						<h1>Dock 2</h1>
-						<p>Bikes Available:</p>
-						<h2>6 / 6</h2>
-						<div class="pt-3 row">
-						<button class="btn btn-success checkOut" type="submit">Check Out</button>
-						<button class="btn btn-danger checkIn" type="submit" disabled>Check In</button>
+					<!-- .modal -->
+					<div class="modal fade" id="damageModal">
+						<div class="modal-dialog">
+							<div class="modal-content">
+								<div class="modal-header">
+									<h4 class="modal-title">
+										Bike Damages Check In
+									</h4>
+								</div>
+								<div class="modal-body">
+									Is the bike damaged?
+								</div>
+								<div class="modal-footer">
+									<div class="row" align="center" style="margin: 0 auto;">
+									<div class="col-6">
+									<a href="receipt.php"><button type="button" class="btn btn-success">
+										No
+									</button></a>
+									</div>
+									<div class="col-6">
+									<a href="receipt.php"><button type="button" class="btn btn-success">
+										Yes
+									</button></a>
+									</div>
+									</div>
+								</div>
+							</div>
 						</div>
-					</div>
-					<!-- /Dock 2 ============================-->
-
-					<!-- Dock 3 ============================-->
-					<div class="col-2 p-3 dock">
-						<h1>Dock 3</h1>
-						<p>Bikes Available:</p>
-						<h2>0 / 6</h2>
-						<div class="pt-3 row">
-						<button class="btn btn-danger checkOut" type="submit" href="#" disabled>Check Out</button>
-						<button class="btn btn-success checkIn" type="submit" href="#">Check In</button>
-						</div>
-					</div>
-					<!-- /Dock 3 ============================-->
-
-					<!-- Dock 4 ============================-->
-					<div class="col-2 p-3 dock">
-						<h1>Dock 4</h1>
-						<p>Bikes Available:</p>
-						<h2>3 / 6</h2>
-						<div class=" pt-3 row">
-						<button class="btn btn-success checkOut" type="submit" href="#">Check Out</button>
-						<button class="btn btn-success checkIn" type="submit" href="#">Check In</button>
-						</div>
-					</div>
-					<!-- /Dock 4 ============================-->
-
-					<!-- Dock 5 ============================-->
-					<div class="col-2 p-3 dock">
-						<h1>Dock 5</h1>
-						<p>Bikes Available:</p>
-						<h2>3 / 6</h2>
-						<div class="pt-3 row">
-						<button class="btn btn-success checkOut" type="submit" href="#">Check Out</button>
-						<button class="btn btn-success checkIn" type="submit" href="#">Check In</button>
-						</div>
-					</div>
-					<!-- /Dock 5 ============================-->
-
-					</div>
-
-					<div class="row pb-5" align="center">
-
-					<!-- Dock 6 ============================-->
-					<div class="col-2 p-3 dock">
-						<h1>Dock 6</h1>
-						<p>Bikes Available:</p>
-						<h2>3 / 6</h2>
-						<div class="pt-3 row">
-						<button class="btn btn-success checkOut" type="submit" href="#">Check Out</button>
-						<button class="btn btn-success checkIn" type="submit" href="#">Check In</button>
-						</div>
-					</div>
-					<!-- /Dock 6 ============================-->
-
-					<!-- Dock 7 ============================-->
-					<div class="col-2 p-3 dock">
-						<h1>Dock 7</h1>
-						<p>Bikes Available:</p>
-						<h2>3 / 6</h2>
-						<div class="pt-3 row">
-						<button class="btn btn-success checkOut" type="submit" href="#">Check Out</button>
-						<button class="btn btn-success checkIn" type="submit" href="#">Check In</button>
-						</div>
-					</div>
-					<!-- /Dock 7 ============================-->
-
-					<!-- Dock 8 ============================-->
-					<div class="col-2 p-3 dock">
-						<h1>Dock 8</h1>
-						<p>Bikes Available:</p>
-						<h2>3 / 6</h2>
-						<div class="pt-3 row">
-						<button class="btn btn-success checkOut" type="submit" href="#">Check Out</button>
-						<button class="btn btn-success checkIn" type="submit" href="#">Check In</button>
-						</div>
-					</div>
-					<!-- /Dock 8 ============================-->
-
-					<!-- Dock 9 ============================-->
-					<div class="col-2 p-3 dock">
-						<h1>Dock 9</h1>
-						<p>Bikes Available:</p>
-						<h2>3 / 6</h2>
-						<div class=" pt-3 row">
-						<button class="btn btn-success checkOut" type="submit" href="#">Check Out</button>
-						<button class="btn btn-success checkIn" type="submit" href="#">Check In</button>
-						</div>
-					</div>
-					<!-- Dock 9 ============================-->
-
-					<!-- Dock 10 ============================-->
-					<div class="col-2 p-3 dock">
-						<h1>Dock 10</h1>
-						<p>Bikes Available:</p>
-						<h2>3 / 6</h2>
-						<div class="pt-3 row">
-						<button class="btn btn-success checkOut" type="submit" href="#">Check Out</button>
-						<button class="btn btn-success checkIn" type="submit" href="#">Check In</button>
-						</div>
-					</div>
-					<!-- /Dock 10 ============================-->
-
-
-
-<!-- .modal -->
-	<div class="modal fade" id="damageModal">
-		<div class="modal-dialog">
-			<div class="modal-content">
-				<div class="modal-header">
-				    <h4 class="modal-title">
-                        Bike Damages Check In
-                    </h4>
-
-				</div>
-				<div class="modal-body">
-					Is the bike damaged?
-				</div>
-				<div class="modal-footer">
-				    <div class="row" align="center" style="margin: 0 auto;">
-				    <div class="col-6">
-					<a href="receipt.php"><button type="button" class="btn btn-success">
-						No
-					</button></a>
-					</div>
-					<div class="col-6">
-					<a href="receipt.php"><button type="button" class="btn btn-success">
-						Yes
-					</button></a>
-					</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-
 					</div>
 				</div>
-
 			</section>
 			<!-- <section> close ============================-->
 			<!-- ============================================-->
-
-
 		</main>
 		<!-- ===============================================-->
 		<!--    End of Main Content-->
