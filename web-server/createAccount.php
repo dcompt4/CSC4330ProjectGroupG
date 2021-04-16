@@ -16,8 +16,11 @@
 
 
 <body>
-<!-- Bootsrap CDN js -->
+        <!-- Bootsrap CDN js -->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+        
+        <!-- Local js -->
+        <script src="script.js"></script>
 
  <nav>
 
@@ -60,7 +63,7 @@
 
 
         <div class="container" align="left">
-            <form action="./login.php" method="post">
+            <form id="user_info">
                 <div class="form-group">
                     <div class="col-2"><label for="email">Email Address</label></div>
                     <input class="form-control" id="email" type="email"
@@ -115,7 +118,7 @@
                 </div>
 
 
-                <button class="btn btn-primary createAccount" type="submit">Create Account</button>
+                <button class="btn btn-primary createAccount" type="button" onclick="create_account()">Create Account</button>
             </form>
             
         </div>

@@ -19,7 +19,7 @@
 
         <title>Bike Web App</title>
     </head>
-    <body>
+    <body onload="setup()">
         <!-- Bootsrap CDN js -->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
 
@@ -28,6 +28,11 @@
         <script><?php echo "var bike_data = ". file_get_contents("bike-data.json") .";"; ?></script>
         <script><?php echo "var user_data = ". file_get_contents("user-data.json") .";"; ?></script>
         <script src="script.js"></script>
+        <script>
+            var user_name = check_credentials(email, password);
+            if (user_name == null)
+                window.location.replace("login.php");
+        </script
 
         <nav>
 
@@ -36,7 +41,7 @@
                 <ul>
                     <li><a class="inactive" href="index.php">Dowling</a></li>
                     <li style="float:right"><a class="logout" href="login.php">Logout</a></li>
-                    <li style="float:right"><a class="inactive">Hello, User</a></li>
+                    <li style="float:right"><a class="inactive">Hello, <span id="user_name">User</span></a></li>
                     <li style="float:right"><a class="active" href="index.php">Bike Rentals and Returns</a></li>
                 </ul>
 
