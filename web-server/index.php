@@ -33,8 +33,8 @@
 		<script src="modal.js"></script>
         <script src="script.js"></script>
         <script>
-            var user_name = check_credentials(email, password);
-            if (user_name == null)
+            var user = check_credentials(email, password);
+            if (user.name == null)
                 window.location.replace("login.php");
         </script
 
@@ -77,8 +77,8 @@
 								<p>Bikes Available:</p>
 								<h2>3 / 6</h2>
 								<div class="pt-3 row">
-									<button class="btn btn-dark checkOut" type="submit">Check Out</button>
-									<button class="btn btn-dark" type="button" data-toggle="modal" data-target="#damageModal">Check In</button>
+									<button class="btn btn-dark checkOut" type="button" onclick="checkOut(0)">Check Out</button>
+									<button class="btn btn-dark" type="button" onclick="checkIn(0)">Check In</button>
 								</div>
 							</div>
 							<!-- /Dock 1 ============================-->
@@ -89,8 +89,8 @@
 								<p>Bikes Available:</p>
 								<h2>6 / 6</h2>
 								<div class="pt-3 row">
-									<button class="btn btn-dark checkOut" type="submit">Check Out</button>
-									<button class="btn btn-dark checkIn" type="submit" disabled>Check In</button>
+									<button class="btn btn-dark checkOut" type="button" onclick="checkOut(1)">Check Out</button>
+									<button class="btn btn-dark" type="button" onclick="checkIn(1)">Check In</button>
 								</div>
 							</div>
 							<!-- /Dock 2 ============================-->
@@ -101,8 +101,8 @@
 								<p>Bikes Available:</p>
 								<h2>0 / 6</h2>
 								<div class="pt-3 row">
-									<button class="btn btn-dark checkOut" type="submit" href="#" disabled>Check Out</button>
-									<button class="btn btn-dark checkIn" type="submit" href="#">Check In</button>
+									<button class="btn btn-dark checkOut" type="button" onclick="checkOut(2)">Check Out</button>
+									<button class="btn btn-dark" type="button" onclick="checkIn(2)">Check In</button>
 								</div>
 							</div>
 							<!-- /Dock 3 ============================-->
@@ -113,8 +113,8 @@
 								<p>Bikes Available:</p>
 								<h2>3 / 6</h2>
 								<div class=" pt-3 row">
-									<button class="btn btn-dark checkOut" type="submit" href="#">Check Out</button>
-									<button class="btn btn-dark checkIn" type="submit" href="#">Check In</button>
+									<button class="btn btn-dark checkOut" type="button" onclick="checkOut(3)">Check Out</button>
+									<button class="btn btn-dark" type="button" onclick="checkIn(3)">Check In</button>
 								</div>
 							</div>
 							<!-- /Dock 4 ============================-->
@@ -125,8 +125,8 @@
 								<p>Bikes Available:</p>
 								<h2>3 / 6</h2>
 								<div class="pt-3 row">
-									<button class="btn btn-dark checkOut" type="submit" href="#">Check Out</button>
-									<button class="btn btn-dark checkIn" type="submit" href="#">Check In</button>
+									<button class="btn btn-dark checkOut" type="button" onclick="checkOut(4)">Check Out</button>
+									<button class="btn btn-dark" type="button" onclick="checkIn(4)">Check In</button>
 								</div>
 							</div>
 							<!-- /Dock 5 ============================-->
@@ -139,8 +139,8 @@
 								<p>Bikes Available:</p>
 								<h2>3 / 6</h2>
 								<div class="pt-3 row">
-									<button class="btn btn-dark checkOut" type="submit" href="#">Check Out</button>
-									<button class="btn btn-dark checkIn" type="submit" href="#">Check In</button>
+									<button class="btn btn-dark checkOut" type="button" onclick="checkOut(5)">Check Out</button>
+									<button class="btn btn-dark" type="button" onclick="checkIn(5)">Check In</button>
 								</div>
 							</div>
 							<!-- /Dock 6 ============================-->
@@ -151,8 +151,8 @@
 								<p>Bikes Available:</p>
 								<h2>3 / 6</h2>
 								<div class="pt-3 row">
-									<button class="btn btn-dark checkOut" type="submit" href="#">Check Out</button>
-									<button class="btn btn-dark checkIn" type="submit" href="#">Check In</button>
+									<button class="btn btn-dark checkOut" type="button" onclick="checkOut(6)">Check Out</button>
+									<button class="btn btn-dark" type="button" onclick="checkIn(6)">Check In</button>
 								</div>
 							</div>
 							<!-- /Dock 7 ============================-->
@@ -163,8 +163,8 @@
 								<p>Bikes Available:</p>
 								<h2>3 / 6</h2>
 								<div class="pt-3 row">
-									<button class="btn btn-dark checkOut" type="submit" href="#">Check Out</button>
-									<button class="btn btn-dark checkIn" type="submit" href="#">Check In</button>
+									<button class="btn btn-dark checkOut" type="button" onclick="checkOut(7)">Check Out</button>
+									<button class="btn btn-dark" type="button" onclick="checkIn(7)">Check In</button>
 								</div>
 							</div>
 							<!-- /Dock 8 ============================-->
@@ -175,8 +175,8 @@
 								<p>Bikes Available:</p>
 								<h2>3 / 6</h2>
 								<div class=" pt-3 row">
-									<button class="btn btn-dark checkOut" type="submit" href="#">Check Out</button>
-									<button class="btn btn-dark checkIn" type="submit" href="#">Check In</button>
+									<button class="btn btn-dark checkOut" type="button" onclick="checkOut(8)">Check Out</button>
+									<button class="btn btn-dark" type="button" onclick="checkIn(8)">Check In</button>
 								</div>
 							</div>
 							<!-- Dock 9 ============================-->
@@ -187,8 +187,8 @@
 								<p>Bikes Available:</p>
 								<h2>3 / 6</h2>
 								<div class="pt-3 row">
-									<button class="btn btn-dark checkOut" type="submit" href="#">Check Out</button>
-									<button class="btn btn-dark checkIn" type="submit" href="#">Check In</button>
+									<button class="btn btn-dark checkOut" type="button" onclick="checkOut(9)">Check Out</button>
+									<button class="btn btn-dark" type="button" onclick="checkIn(9)">Check In</button>
 								</div>
 							</div>
 							<!-- /Dock 10 ============================-->	
@@ -210,12 +210,12 @@
 								<div class="modal-footer">
 									<div class="row" align="center" style="margin: 0 auto;">
 									<div class="col-6">
-									<a href="receipt.php"><button type="button" class="btn btn-success">
+									<a onclick="damaged(false);"><button type="button" class="btn btn-success">
 										No
 									</button></a>
 									</div>
 									<div class="col-6">
-									<a href="receipt.php"><button type="button" class="btn btn-success">
+									<a onclick="damaged(true);"><button type="button" class="btn btn-success">
 										Yes
 									</button></a>
 									</div>
