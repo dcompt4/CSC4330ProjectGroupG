@@ -1,3 +1,15 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+nav {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+}
+
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -54,6 +66,7 @@ li .active:hover {
     border: solid 1px black;
     padding: auto;
     margin: 0 auto;
+    border-radius: 20px;
 }
 
 .row .btn {
@@ -63,4 +76,21 @@ li .active:hover {
 nav {
     margin: 0 auto;
     padding: 0 !important;
+}
+
+.btn-success a:hover {
+    text-decoration: none;
+    color: white; !important;
+}
+.btn-success a {
+    text-decoration: none;
+    color: white; !important;
+}
+a .btn {
+    align-content: center;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+.modal-footer {
+    align-content: center;
 }
